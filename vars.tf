@@ -30,8 +30,7 @@ variable "my_key_name" {
 }
 
 variable "my_key" {
-  default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDFFAEsu9b74YAkEHxfP3vpRaQBul0BPj6FrrDYPgNscPE7n8NbKUZs1FhrlkwqhKAaa9fTpG63D3XbzU7CaojtvXw6KcMdCGb3e4RlhxVqshM+PTrpFkQXSokyrhQSGjlj9n78zvHxUYD9ireshJnsRw5WTy+/pll441+ZCiH45xT0sAQ48oDs8OQXGIh37zeULSTV22qKLRYKoFBa9lrcJXYBCLUWebcosieufbcOiauebC+v06t7TRqSnIERjm6NnXf3v4dSwqDMONQBg2zv
-"
+  default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDFFAEsu9b74YAkEHxfP3vpRaQBul0BPj6FrrDYPgNscPE7n8NbKUZs1FhrlkwqhKAaa9fTpG63D3XbzU7CaojtvXw6KcMdCGb3e4RlhxVqshM+PTrpFkQXSokyrhQSGjlj9n78zvHxUYD9ireshJnsRw5WTy+/pll441+ZCiH45xT0sAQ48oDs8OQXGIh37zeULSTV22qKLRYKoFBa9lrcJXYBCLUWebcosieufbcOiauebC+v06t7TRqSnIERjm6NnXf3v4dSwqDMONQBg2zv"
 }
 variable "ami" {
   default = "ami-73f7da13"

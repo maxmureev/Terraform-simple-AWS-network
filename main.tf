@@ -1,7 +1,7 @@
 # Create Public SSH Key
 resource "aws_key_pair" "key_name" {
   key_name   = "${var.my_key_name}"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDFFAEsu9b74YAkEHxfP3vpRaQBul0BPj6FrrDYPgNscPE7n8NbKUZs1FhrlkwqhKAaa9fTpG63D3XbzU7CaojtvXw6KcMdCGb3e4RlhxVqshM+PTrpFkQXSokyrhQSGjlj9n78zvHxUYD9ireshJnsRw5WTy+ilLpAc90zepXxJW5YZOGX3dDtTQ2BXhjbdV/0Ww1icTzw/pll441+ZCiH45xT0sAQ48oDs8OQXGIh37zeULSTV22qKLRYKoFBa9lrcJXbr+zq2NUXViEJ8wPFceI20l6bbhOr4RW9+v06t7TRqSnIERjm6NnXf3v4dSwqDMONQBg2zv+DiRO1l8B3"
+  public_key = "${var.my_key}"
 }
 
 # Create VPC
